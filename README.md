@@ -44,4 +44,4 @@ Snippet code
 Comparasent from draft 
 
 
-![alt text](image.png)
+<img width="690" height="321" alt="image" src="https://github.com/user-attachments/assets/ceb39023-050e-42a6-b690-2569170891e5" />
