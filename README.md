@@ -3,29 +3,8 @@
 
 Snippet code 
 
-/* SLIDER CONTAINER */
-.container {
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-}
+/* SLIDER button */
 
-
-/*  EACH SLIDE */
-.card {
-  flex: 0 0 100%;
-  scroll-snap-align: start;
-}
-
-/*  SAME SIZE IMAGES */
-.card img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-}
-
-/* BUTTONS */
 .slider-btn {
   position: fixed;
   top: 50%;
@@ -38,6 +17,9 @@ Snippet code
   cursor: pointer;
   z-index: 2000;
 }
+
+.prev { left: 10px; }
+.next { right: 10px; }
 
 
 
